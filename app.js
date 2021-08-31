@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 5000
 const addItem = require('./notion.js')
 
 app.get('/', (req, res) => {
