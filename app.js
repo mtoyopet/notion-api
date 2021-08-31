@@ -3,7 +3,7 @@ const app = express()
 const port = 5000
 const addItem = require('./notion.js')
 
-app.get('/', (req, res) => {
+app.get('/notion', (req, res) => {
   addItem({ title: "Yurts in Big Sur, California"})
 })
 
